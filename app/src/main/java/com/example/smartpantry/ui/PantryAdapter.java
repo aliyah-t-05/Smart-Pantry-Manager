@@ -43,6 +43,7 @@ public class PantryAdapter extends RecyclerView.Adapter<PantryAdapter.ViewHolder
         this.alertsEnabled = alertsEnabled;
         this.alertDays = alertDays;
         notifyDataSetChanged();
+        
     }
 
     @NonNull
