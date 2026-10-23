@@ -15,6 +15,7 @@ public class PantryItem {
         this.quantity = quantity;
         this.unit = unit;
         this.expiryDate = expiryDate;
+        
     }
 
     public long getId() { return id; }
