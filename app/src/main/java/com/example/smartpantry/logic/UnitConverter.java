@@ -32,6 +32,7 @@ public final class UnitConverter {
                 {"whole", "pcs"}, {"slice", "pcs"}, {"slices", "pcs"}, {"can", "pcs"}, {"clove", "pcs"}
         };
         for (String[] pair : a) ALIASES.put(pair[0], pair[1]);
+        
     }
 
     private UnitConverter() { }
