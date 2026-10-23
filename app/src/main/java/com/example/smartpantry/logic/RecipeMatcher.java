@@ -41,6 +41,7 @@ public final class RecipeMatcher {
         public List<String> getMissing() { return missing; }
         public boolean isStrictMatch() {
             return missing.isEmpty() && !recipe.getIngredients().isEmpty();
+            
         }
     }
 
