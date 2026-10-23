@@ -34,6 +34,7 @@ public class PantryAdapter extends RecyclerView.Adapter<PantryAdapter.ViewHolder
 
     public PantryAdapter(Listener listener) {
         this.listener = listener;
+        
     }
 
     public void setData(List<PantryItem> newItems, boolean alertsEnabled, int alertDays) {
