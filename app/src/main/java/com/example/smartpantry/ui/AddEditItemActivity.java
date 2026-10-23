@@ -48,6 +48,7 @@ public class AddEditItemActivity extends AppCompatActivity {
 
         if (getSupportActionBar() != null) {
             getSupportActionBar().setDisplayHomeAsUpEnabled(true); // back arrow
+            
         }
 
         spUnit.setAdapter(new ArrayAdapter<>(this,
