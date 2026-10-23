@@ -22,6 +22,7 @@ there is no server to build or pay for, and the data survives the app being clos
 `pantry`, `recipes`, `recipe_ingredients` (FK -> recipes, ON DELETE CASCADE).
 
 ## Setup / run instructions
+
 1. Install **Android Studio** (Hedgehog or newer) with an Android SDK (API 34).
 2. Clone the repo: `git clone <your-repo-url>`
 3. In Android Studio choose **File > Open** and select the project folder; wait for Gradle sync to finish.
