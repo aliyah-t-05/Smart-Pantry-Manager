@@ -14,6 +14,7 @@ public class Recipe {
         this.id = id;
         this.name = name;
         this.steps = steps;
+        
     }
 
     public long getId() { return id; }
