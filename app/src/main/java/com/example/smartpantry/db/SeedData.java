@@ -87,6 +87,7 @@ public final class SeedData {
                 "potato:4:pcs", "oil:2:tbsp", "salt:1:tsp", "paprika:1:tsp");
 
         return list;
+        
     }
 
     private static void add(List<Recipe> list, String name, String steps, String... ingredients) {
