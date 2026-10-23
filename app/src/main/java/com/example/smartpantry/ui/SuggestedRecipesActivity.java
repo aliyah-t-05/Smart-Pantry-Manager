@@ -52,6 +52,7 @@ public class SuggestedRecipesActivity extends BaseActivity implements RecipeAdap
 
         // Bonus list: kept visually separate from the strict list
         chkAlmost.setOnCheckedChangeListener((button, checked) -> updateAlmostVisibility());
+        
     }
 
     @Override
