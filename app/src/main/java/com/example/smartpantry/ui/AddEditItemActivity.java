@@ -150,6 +150,7 @@ public class AddEditItemActivity extends AppCompatActivity {
         if (item.getItemId() == android.R.id.home) { // the back arrow in the action bar
             finish();
             return true;
+            
         }
         return super.onOptionsItemSelected(item);
     }
