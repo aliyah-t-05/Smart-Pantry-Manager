@@ -10,6 +10,7 @@ public class RecipeIngredient {
         this.name = name;
         this.quantity = quantity;
         this.unit = unit;
+        
     }
 
     public String getName() { return name; }
