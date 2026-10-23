@@ -18,6 +18,7 @@ public class RecipeMatcherTest {
 
     private static PantryItem item(String name, double qty, String unit) {
         return new PantryItem(0, name, qty, unit, null);
+        
     }
 
     /** A 5-ingredient recipe: tomato, onion, garlic, oil, salt */
