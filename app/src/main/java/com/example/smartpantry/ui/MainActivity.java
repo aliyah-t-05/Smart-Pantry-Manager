@@ -48,6 +48,7 @@ public class MainActivity extends BaseActivity implements PantryAdapter.Listener
         FloatingActionButton fab = findViewById(R.id.fabAdd);
         // Explicit Intent: go to the Add/Edit screen with no extras = "add mode"
         fab.setOnClickListener(v -> startActivity(new Intent(this, AddEditItemActivity.class)));
+        
     }
 
     /**
