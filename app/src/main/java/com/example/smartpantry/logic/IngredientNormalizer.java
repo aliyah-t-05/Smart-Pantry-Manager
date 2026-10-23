@@ -25,6 +25,7 @@ public final class IngredientNormalizer {
         String head = lastSpace < 0 ? "" : s.substring(0, lastSpace + 1);
         String last = lastSpace < 0 ? s : s.substring(lastSpace + 1);
         return head + singular(last);
+        
     }
 
     /** Very small singularisation rule set - enough for pantry food names, not full NLP. */
