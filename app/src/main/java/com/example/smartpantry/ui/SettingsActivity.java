@@ -40,6 +40,7 @@ public class SettingsActivity extends BaseActivity {
         int savedDays = prefs.getInt(KEY_DAYS, 3);
         for (int i = 0; i < DAY_OPTIONS.length; i++) {
             if (DAY_OPTIONS[i] == savedDays) spDays.setSelection(i);
+            
         }
         spDays.setEnabled(switchAlerts.isChecked());
 
